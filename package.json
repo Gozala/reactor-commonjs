@@ -1,0 +1,18 @@
+{ "name": "event-loop"
+, "version": "0.0.1"
+, "description": "CommonJS Reactor/A for nodejs"
+, "homepage": "http://wiki.commonjs.org/wiki/Reactor/A"
+, "keywords": ["node", "commonjs", "reactor", "event-queue"]
+, "contributors":
+  [ "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)" ]
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/Gozala/reactor-commonjs.git"
+  }
+, "bugs": { "web": "http://github.com/Gozala/reactor-commonjs/issues/" }
+, "main": "./event-loop.js"
+, "engines": { "node": ">=0.1.103" }
+, "licenses": [
+    { "type": "MIT" }
+  ]
+}
