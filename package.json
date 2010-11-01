@@ -1,5 +1,5 @@
 { "name": "event-queue"
-, "version": "0.0.1"
+, "version": "0.0.2"
 , "description": "CommonJS Reactor/A for nodejs"
 , "homepage": "http://wiki.commonjs.org/wiki/Reactor/A"
 , "keywords": ["node", "commonjs", "reactor", "event-queue", "enqueue"]
@@ -10,8 +10,14 @@
   , "url": "git://github.com/Gozala/reactor-commonjs.git"
   }
 , "bugs": { "web": "http://github.com/Gozala/reactor-commonjs/issues/" }
-, "main": "./event-queue.js"
-, "engines": { "node": ">=0.1.103" }
+, "engines":
+  { "node": ">=0.1.103"
+  , "teleport": ">=0.2.0"
+  }
+, "overlay":
+  { "node": { "main": "./engines/node/event-queue" }
+  , "teleport": { "main": "./engines/teleport/event-queue" }
+  }
 , "licenses": [
     { "type": "MIT" }
   ]
