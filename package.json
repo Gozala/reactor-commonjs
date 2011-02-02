@@ -1,5 +1,5 @@
 { "name": "event-queue"
-, "version": "0.0.2"
+, "version": "0.0.3"
 , "description": "CommonJS Reactor/A for nodejs"
 , "homepage": "http://wiki.commonjs.org/wiki/Reactor/A"
 , "keywords": ["node", "commonjs", "reactor", "event-queue", "enqueue"]
